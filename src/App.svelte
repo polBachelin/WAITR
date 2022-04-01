@@ -22,9 +22,9 @@
     </style>
 </svelte:head>
 
-<div id="whoAreUs" style="position: relative; top: 400px;"/>
-<div id="solution" style="position: relative; top: 1175px;"/>
-<div id="team" style="position: relative; top: 1750px;"/>
+<div id="solution" style="position: relative; top: 100px;"/>
+<div id="whoAreUs" style="position: relative; top: 1000px;"/>
+<div id="others" style="position: relative; top: 1550px;"/>
 <div id="contact" style="position: relative; top: 2500px;"/>
 <Router {url}>
     <Route path="*">
@@ -39,7 +39,7 @@
 			<ParallaxLayer rate={0.5} offset={1.2}>
 				<Resume />
 			</ParallaxLayer>
-			<ParallaxLayer rate={2.0} offset={1.5} style={"background-color: white; display: flex !important; justify-content: center !important;"}>
+			<ParallaxLayer rate={2.0} offset={1.2} style={"background-color: white; display: flex !important; justify-content: center !important;"}>
 				<WhoAreUS />
 			</ParallaxLayer>
 			<ParallaxLayer rate={0} offset={1.9}>

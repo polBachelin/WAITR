@@ -18,9 +18,9 @@
     </a>
     <button class="icon-toggle" on:click={toggle_menu}><img src="svg/iconMenu.svg" alt="icon_menu"></button>
     <ul data-visible={bool} class="nav-right flex ligne">
-        <li><a href="#whoAreUs">Who are we ?</a></li>
         <li><a href="#solution">Our solution</a></li>
-        <li><a href="#team">What others have said</a></li>
+        <li><a href="#whoAreUs">Who are we ?</a></li>
+        <li><a href="#others">What others have said</a></li>
         <li><a href="#contact">Contact Us</a></li>
     </ul>
 </header>

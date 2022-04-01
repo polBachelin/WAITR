@@ -620,11 +620,11 @@ var app = (function () {
     			ul = element("ul");
     			li0 = element("li");
     			a1 = element("a");
-    			a1.textContent = "Who are we ?";
+    			a1.textContent = "Our solution";
     			t4 = space();
     			li1 = element("li");
     			a2 = element("a");
-    			a2.textContent = "Our solution";
+    			a2.textContent = "Who are we ?";
     			t6 = space();
     			li2 = element("li");
     			a3 = element("a");
@@ -645,26 +645,26 @@ var app = (function () {
     			add_location(img1, file$9, 18, 55, 411);
     			attr_dev(button, "class", "icon-toggle svelte-1ce50lx");
     			add_location(button, file$9, 18, 4, 360);
-    			attr_dev(a1, "href", "#whoAreUs");
+    			attr_dev(a1, "href", "#solution");
     			attr_dev(a1, "class", "svelte-1ce50lx");
     			add_location(a1, file$9, 20, 12, 535);
     			attr_dev(li0, "class", "svelte-1ce50lx");
     			add_location(li0, file$9, 20, 8, 531);
-    			attr_dev(a2, "href", "#solution");
+    			attr_dev(a2, "href", "#whoAreUs");
     			attr_dev(a2, "class", "svelte-1ce50lx");
     			add_location(a2, file$9, 21, 12, 589);
     			attr_dev(li1, "class", "svelte-1ce50lx");
     			add_location(li1, file$9, 21, 8, 585);
-    			attr_dev(a3, "href", "#team");
+    			attr_dev(a3, "href", "#others");
     			attr_dev(a3, "class", "svelte-1ce50lx");
     			add_location(a3, file$9, 22, 12, 643);
     			attr_dev(li2, "class", "svelte-1ce50lx");
     			add_location(li2, file$9, 22, 8, 639);
     			attr_dev(a4, "href", "#contact");
     			attr_dev(a4, "class", "svelte-1ce50lx");
-    			add_location(a4, file$9, 23, 12, 702);
+    			add_location(a4, file$9, 23, 12, 704);
     			attr_dev(li3, "class", "svelte-1ce50lx");
-    			add_location(li3, file$9, 23, 8, 698);
+    			add_location(li3, file$9, 23, 8, 700);
     			attr_dev(ul, "data-visible", /*bool*/ ctx[0]);
     			attr_dev(ul, "class", "nav-right flex ligne svelte-1ce50lx");
     			add_location(ul, file$9, 19, 4, 469);
@@ -4194,7 +4194,7 @@ var app = (function () {
     			attr_dev(img, "class", "banner svelte-1n8vvxr");
     			if (!src_url_equal(img.src, img_src_value = "img/BannerWAITR.png")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "banner");
-    			add_location(img, file, 36, 4, 1319);
+    			add_location(img, file, 36, 4, 1321);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -4254,7 +4254,7 @@ var app = (function () {
     	return block;
     }
 
-    // (42:3) <ParallaxLayer rate={2.0} offset={1.5} style={"background-color: white; display: flex !important; justify-content: center !important;"}>
+    // (42:3) <ParallaxLayer rate={2.0} offset={1.2} style={"background-color: white; display: flex !important; justify-content: center !important;"}>
     function create_default_slot_5(ctx) {
     	let whoareus;
     	let current;
@@ -4286,7 +4286,7 @@ var app = (function () {
     		block,
     		id: create_default_slot_5.name,
     		type: "slot",
-    		source: "(42:3) <ParallaxLayer rate={2.0} offset={1.5} style={\\\"background-color: white; display: flex !important; justify-content: center !important;\\\"}>",
+    		source: "(42:3) <ParallaxLayer rate={2.0} offset={1.2} style={\\\"background-color: white; display: flex !important; justify-content: center !important;\\\"}>",
     		ctx
     	});
 
@@ -4304,7 +4304,7 @@ var app = (function () {
     			attr_dev(img, "class", "banner svelte-1n8vvxr");
     			if (!src_url_equal(img.src, img_src_value = "img/BannerWAITR.png")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "banner");
-    			add_location(img, file, 45, 4, 1699);
+    			add_location(img, file, 45, 4, 1701);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -4413,7 +4413,7 @@ var app = (function () {
     	parallaxlayer3 = new ParallaxLayer({
     			props: {
     				rate: 2.0,
-    				offset: 1.5,
+    				offset: 1.2,
     				style: "background-color: white; display: flex !important; justify-content: center !important;",
     				$$slots: { default: [create_default_slot_5] },
     				$$scope: { ctx }
@@ -4732,22 +4732,22 @@ var app = (function () {
     			t5 = space();
     			create_component(router.$$.fragment);
     			add_location(style, file, 18, 4, 520);
-    			attr_dev(div0, "id", "whoAreUs");
+    			attr_dev(div0, "id", "solution");
     			set_style(div0, "position", "relative");
-    			set_style(div0, "top", "400px");
+    			set_style(div0, "top", "100px");
     			add_location(div0, file, 24, 0, 748);
-    			attr_dev(div1, "id", "solution");
+    			attr_dev(div1, "id", "whoAreUs");
     			set_style(div1, "position", "relative");
-    			set_style(div1, "top", "1175px");
+    			set_style(div1, "top", "1000px");
     			add_location(div1, file, 25, 0, 809);
-    			attr_dev(div2, "id", "team");
+    			attr_dev(div2, "id", "others");
     			set_style(div2, "position", "relative");
-    			set_style(div2, "top", "1750px");
+    			set_style(div2, "top", "1550px");
     			add_location(div2, file, 26, 0, 871);
     			attr_dev(div3, "id", "contact");
     			set_style(div3, "position", "relative");
     			set_style(div3, "top", "2500px");
-    			add_location(div3, file, 27, 0, 929);
+    			add_location(div3, file, 27, 0, 931);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
