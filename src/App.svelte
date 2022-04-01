@@ -3,7 +3,7 @@
 	import WhoAreUS from "./WhoAreWe.svelte"
 	import Resume from "./Resume.svelte"
 	import Solution from "./Solution.svelte"
-	import Team from "./Team.svelte"
+	import Feedback from "./Feedback.svelte"
 	import Footer from "./Footer.svelte"
 	import MainFrame from "./MainFrame.svelte"
     import Not404 from "./404not404.svelte";
@@ -24,7 +24,7 @@
 
 <div id="solution" style="position: relative; top: 100px;"/>
 <div id="whoAreUs" style="position: relative; top: 1000px;"/>
-<div id="others" style="position: relative; top: 1550px;"/>
+<div id="feedback" style="position: relative; top: 1550px;"/>
 <div id="contact" style="position: relative; top: 2500px;"/>
 <Router {url}>
     <Route path="*">
@@ -46,7 +46,7 @@
 				<img class="banner" src="img/BannerWAITR.png" alt="banner">
 			</ParallaxLayer>
 			<ParallaxLayer rate={1} offset={2}>
-				<Team />
+				<Feedback />
 			</ParallaxLayer>
 		</Parallax>
 		<Footer />
