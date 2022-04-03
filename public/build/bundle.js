@@ -1217,7 +1217,7 @@ var app = (function () {
     			h1.textContent = "Our solution";
     			t2 = space();
     			p = element("p");
-    			p.textContent = "WAITR, is a company that offers to transform waiting lines into the a gig economy.\n\t\t\t\tAn app that helps you not have to wait in lines anymore. We hire independent contractors as waiters to wait in line for you.\n\t\t\t\tOr you can make money by becoming an independent contractor and work whenever you feel like it.\n\t\t\t\tThis solution is for anyone that does not want to wait in line anymore.";
+    			p.textContent = "WAITR, is a company that offers to transform waiting lines into a gig economy.\n\t\t\t\tAn app that helps you not have to wait in lines anymore. We hire independent contractors as waiters to wait in line for you.\n\t\t\t\tOr you can make money by becoming an independent contractor and work whenever you feel like it.\n\t\t\t\tThis solution is for anyone that does not want to wait in line anymore.";
     			attr_dev(img, "class", "planet svelte-1x67tse");
     			if (!src_url_equal(img.src, img_src_value = "img/icon_solution.png")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "planet_image");

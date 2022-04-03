@@ -9,7 +9,7 @@
 		<div>
 			<h1>Our solution</h1>
 			<p>
-				WAITR, is a company that offers to transform waiting lines into the a gig economy.
+				WAITR, is a company that offers to transform waiting lines into a gig economy.
 				An app that helps you not have to wait in lines anymore. We hire independent contractors as waiters to wait in line for you.
 				Or you can make money by becoming an independent contractor and work whenever you feel like it.
 				This solution is for anyone that does not want to wait in line anymore.
