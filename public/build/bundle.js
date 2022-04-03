@@ -1771,7 +1771,7 @@ var app = (function () {
 
     function create_fragment$c(ctx) {
     	let footer;
-    	let div4;
+    	let div3;
     	let div0;
     	let img0;
     	let img0_src_value;
@@ -1793,20 +1793,11 @@ var app = (function () {
     	let t5;
     	let div2;
     	let h3;
-    	let t7;
-    	let div3;
-    	let a3;
-    	let t9;
-    	let a4;
-    	let t11;
-    	let a5;
-    	let t13;
-    	let a6;
 
     	const block = {
     		c: function create() {
     			footer = element("footer");
-    			div4 = element("div");
+    			div3 = element("div");
     			div0 = element("div");
     			img0 = element("img");
     			t0 = space();
@@ -1826,19 +1817,6 @@ var app = (function () {
     			div2 = element("div");
     			h3 = element("h3");
     			h3.textContent = "waitr@protonmail.com";
-    			t7 = space();
-    			div3 = element("div");
-    			a3 = element("a");
-    			a3.textContent = "Conditions générales de vente";
-    			t9 = text(" - \n            ");
-    			a4 = element("a");
-    			a4.textContent = "Politique de confidentialité";
-    			t11 = text("\n            -\n            ");
-    			a5 = element("a");
-    			a5.textContent = "Mentions Légales";
-    			t13 = text("\n            -\n            ");
-    			a6 = element("a");
-    			a6.textContent = "Attestation conformité RGPD";
     			attr_dev(img0, "class", "logo svelte-17kmcn7");
     			if (!src_url_equal(img0.src, img0_src_value = "img/WAITR_logo.png")) attr_dev(img0, "src", img0_src_value);
     			attr_dev(img0, "alt", "logo_NuageMalin");
@@ -1872,22 +1850,8 @@ var app = (function () {
     			add_location(h3, file$8, 21, 12, 865);
     			attr_dev(div2, "class", "center-items svelte-17kmcn7");
     			add_location(div2, file$8, 20, 8, 826);
-    			attr_dev(a3, "href", "/404");
-    			attr_dev(a3, "class", "svelte-17kmcn7");
-    			add_location(a3, file$8, 24, 12, 949);
-    			attr_dev(a4, "href", "/404");
-    			attr_dev(a4, "class", "svelte-17kmcn7");
-    			add_location(a4, file$8, 25, 12, 1013);
-    			attr_dev(a5, "href", "/404");
-    			attr_dev(a5, "class", "svelte-17kmcn7");
-    			add_location(a5, file$8, 27, 12, 1087);
-    			attr_dev(a6, "href", "/404");
-    			attr_dev(a6, "class", "svelte-17kmcn7");
-    			add_location(a6, file$8, 29, 12, 1149);
-    			attr_dev(div3, "class", "lien svelte-17kmcn7");
-    			add_location(div3, file$8, 23, 8, 918);
-    			attr_dev(div4, "class", "container flex svelte-17kmcn7");
-    			add_location(div4, file$8, 4, 4, 33);
+    			attr_dev(div3, "class", "container flex svelte-17kmcn7");
+    			add_location(div3, file$8, 4, 4, 33);
     			attr_dev(footer, "class", "svelte-17kmcn7");
     			add_location(footer, file$8, 3, 0, 20);
     		},
@@ -1896,13 +1860,13 @@ var app = (function () {
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, footer, anchor);
-    			append_dev(footer, div4);
-    			append_dev(div4, div0);
+    			append_dev(footer, div3);
+    			append_dev(div3, div0);
     			append_dev(div0, img0);
     			append_dev(div0, t0);
     			append_dev(div0, h1);
-    			append_dev(div4, t2);
-    			append_dev(div4, div1);
+    			append_dev(div3, t2);
+    			append_dev(div3, div1);
     			append_dev(div1, a0);
     			append_dev(a0, img1);
     			append_dev(div1, t3);
@@ -1911,18 +1875,9 @@ var app = (function () {
     			append_dev(div1, t4);
     			append_dev(div1, a2);
     			append_dev(a2, img3);
-    			append_dev(div4, t5);
-    			append_dev(div4, div2);
+    			append_dev(div3, t5);
+    			append_dev(div3, div2);
     			append_dev(div2, h3);
-    			append_dev(div4, t7);
-    			append_dev(div4, div3);
-    			append_dev(div3, a3);
-    			append_dev(div3, t9);
-    			append_dev(div3, a4);
-    			append_dev(div3, t11);
-    			append_dev(div3, a5);
-    			append_dev(div3, t13);
-    			append_dev(div3, a6);
     		},
     		p: noop,
     		i: noop,
