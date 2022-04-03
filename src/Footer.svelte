@@ -4,7 +4,6 @@
 <footer>
     <div class="container flex">
         <div class="center-items" style="padding-block: 1rem;">
-            <img class="logo" src="img/WAITR_logo.png" alt="logo_NuageMalin">
             <h1>Contact us !</h1>
         </div>
         <div class="reseaux">
@@ -37,7 +36,7 @@
         position: absolute;
         width: 100%;
         z-index: 9000;
-        margin-top: -20%;
+        margin-top: -10%;
         background-color: white;
     }
     .flex {
@@ -93,7 +92,7 @@
         width: 15rem;
     }
     .icon {
-        width: 3rem;
+        width: 2rem;
     }
     @media (max-width: 71em) {
         footer {

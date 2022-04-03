@@ -29,7 +29,7 @@
 <Router {url}>
     <Route path="*">
 		<NavBar route="/" />
-		<Parallax sections={3.0} config={{stiffness: 0.3}}>
+		<Parallax sections={2.7} config={{stiffness: 0.3}}>
 			<ParallaxLayer rate={0} offset={0} style={"background-color: white; display: flex !important; justify-content: center !important;"}>
 				<Solution />
 			</ParallaxLayer>

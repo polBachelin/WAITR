@@ -1773,24 +1773,21 @@ var app = (function () {
     	let footer;
     	let div3;
     	let div0;
-    	let img0;
-    	let img0_src_value;
-    	let t0;
     	let h1;
-    	let t2;
+    	let t1;
     	let div1;
     	let a0;
+    	let img0;
+    	let img0_src_value;
+    	let t2;
+    	let a1;
     	let img1;
     	let img1_src_value;
     	let t3;
-    	let a1;
+    	let a2;
     	let img2;
     	let img2_src_value;
     	let t4;
-    	let a2;
-    	let img3;
-    	let img3_src_value;
-    	let t5;
     	let div2;
     	let h3;
 
@@ -1799,60 +1796,54 @@ var app = (function () {
     			footer = element("footer");
     			div3 = element("div");
     			div0 = element("div");
-    			img0 = element("img");
-    			t0 = space();
     			h1 = element("h1");
     			h1.textContent = "Contact us !";
-    			t2 = space();
+    			t1 = space();
     			div1 = element("div");
     			a0 = element("a");
+    			img0 = element("img");
+    			t2 = space();
+    			a1 = element("a");
     			img1 = element("img");
     			t3 = space();
-    			a1 = element("a");
+    			a2 = element("a");
     			img2 = element("img");
     			t4 = space();
-    			a2 = element("a");
-    			img3 = element("img");
-    			t5 = space();
     			div2 = element("div");
     			h3 = element("h3");
     			h3.textContent = "waitr@protonmail.com";
-    			attr_dev(img0, "class", "logo svelte-17kmcn7");
-    			if (!src_url_equal(img0.src, img0_src_value = "img/WAITR_logo.png")) attr_dev(img0, "src", img0_src_value);
-    			attr_dev(img0, "alt", "logo_NuageMalin");
-    			add_location(img0, file$8, 6, 12, 138);
-    			attr_dev(h1, "class", "svelte-17kmcn7");
-    			add_location(h1, file$8, 7, 12, 216);
-    			attr_dev(div0, "class", "center-items svelte-17kmcn7");
+    			attr_dev(h1, "class", "svelte-1jghbd9");
+    			add_location(h1, file$8, 6, 12, 138);
+    			attr_dev(div0, "class", "center-items svelte-1jghbd9");
     			set_style(div0, "padding-block", "1rem");
     			add_location(div0, file$8, 5, 8, 70);
-    			attr_dev(img1, "class", "icon svelte-17kmcn7");
-    			if (!src_url_equal(img1.src, img1_src_value = "icon/instagram.png")) attr_dev(img1, "src", img1_src_value);
-    			attr_dev(img1, "alt", "contact_instagram_NuageMalin");
-    			add_location(img1, file$8, 11, 16, 360);
+    			attr_dev(img0, "class", "icon svelte-1jghbd9");
+    			if (!src_url_equal(img0.src, img0_src_value = "icon/instagram.png")) attr_dev(img0, "src", img0_src_value);
+    			attr_dev(img0, "alt", "contact_instagram_NuageMalin");
+    			add_location(img0, file$8, 10, 16, 282);
     			attr_dev(a0, "href", "https://www.instagram.com/nuagemalin/");
-    			add_location(a0, file$8, 10, 12, 295);
-    			attr_dev(img2, "class", "icon svelte-17kmcn7");
-    			if (!src_url_equal(img2.src, img2_src_value = "icon/linkedinBlue.png")) attr_dev(img2, "src", img2_src_value);
-    			attr_dev(img2, "alt", "contact_linkedin_NuageMalin");
-    			add_location(img2, file$8, 14, 16, 540);
+    			add_location(a0, file$8, 9, 12, 217);
+    			attr_dev(img1, "class", "icon svelte-1jghbd9");
+    			if (!src_url_equal(img1.src, img1_src_value = "icon/linkedinBlue.png")) attr_dev(img1, "src", img1_src_value);
+    			attr_dev(img1, "alt", "contact_linkedin_NuageMalin");
+    			add_location(img1, file$8, 13, 16, 462);
     			attr_dev(a1, "href", "https://www.linkedin.com/company/nuage-malin");
-    			add_location(a1, file$8, 13, 12, 468);
-    			attr_dev(img3, "class", "icon svelte-17kmcn7");
-    			if (!src_url_equal(img3.src, img3_src_value = "icon/twitter.png")) attr_dev(img3, "src", img3_src_value);
-    			attr_dev(img3, "alt", "contact_twitter_NuageMalin");
-    			add_location(img3, file$8, 17, 16, 711);
+    			add_location(a1, file$8, 12, 12, 390);
+    			attr_dev(img2, "class", "icon svelte-1jghbd9");
+    			if (!src_url_equal(img2.src, img2_src_value = "icon/twitter.png")) attr_dev(img2, "src", img2_src_value);
+    			attr_dev(img2, "alt", "contact_twitter_NuageMalin");
+    			add_location(img2, file$8, 16, 16, 633);
     			attr_dev(a2, "href", "https://twitter.com/NuageMalin_fr");
-    			add_location(a2, file$8, 16, 12, 650);
-    			attr_dev(div1, "class", "reseaux svelte-17kmcn7");
-    			add_location(div1, file$8, 9, 8, 261);
-    			attr_dev(h3, "class", "svelte-17kmcn7");
-    			add_location(h3, file$8, 21, 12, 865);
-    			attr_dev(div2, "class", "center-items svelte-17kmcn7");
-    			add_location(div2, file$8, 20, 8, 826);
-    			attr_dev(div3, "class", "container flex svelte-17kmcn7");
+    			add_location(a2, file$8, 15, 12, 572);
+    			attr_dev(div1, "class", "reseaux svelte-1jghbd9");
+    			add_location(div1, file$8, 8, 8, 183);
+    			attr_dev(h3, "class", "svelte-1jghbd9");
+    			add_location(h3, file$8, 20, 12, 787);
+    			attr_dev(div2, "class", "center-items svelte-1jghbd9");
+    			add_location(div2, file$8, 19, 8, 748);
+    			attr_dev(div3, "class", "container flex svelte-1jghbd9");
     			add_location(div3, file$8, 4, 4, 33);
-    			attr_dev(footer, "class", "svelte-17kmcn7");
+    			attr_dev(footer, "class", "svelte-1jghbd9");
     			add_location(footer, file$8, 3, 0, 20);
     		},
     		l: function claim(nodes) {
@@ -1862,20 +1853,18 @@ var app = (function () {
     			insert_dev(target, footer, anchor);
     			append_dev(footer, div3);
     			append_dev(div3, div0);
-    			append_dev(div0, img0);
-    			append_dev(div0, t0);
     			append_dev(div0, h1);
-    			append_dev(div3, t2);
+    			append_dev(div3, t1);
     			append_dev(div3, div1);
     			append_dev(div1, a0);
-    			append_dev(a0, img1);
-    			append_dev(div1, t3);
+    			append_dev(a0, img0);
+    			append_dev(div1, t2);
     			append_dev(div1, a1);
-    			append_dev(a1, img2);
-    			append_dev(div1, t4);
+    			append_dev(a1, img1);
+    			append_dev(div1, t3);
     			append_dev(div1, a2);
-    			append_dev(a2, img3);
-    			append_dev(div3, t5);
+    			append_dev(a2, img2);
+    			append_dev(div3, t4);
     			append_dev(div3, div2);
     			append_dev(div2, h3);
     		},
@@ -4574,7 +4563,7 @@ var app = (function () {
     	return block;
     }
 
-    // (32:2) <Parallax sections={3.0} config={{stiffness: 0.3}}>
+    // (32:2) <Parallax sections={2.7} config={{stiffness: 0.3}}>
     function create_default_slot_2(ctx) {
     	let parallaxlayer0;
     	let t0;
@@ -4761,7 +4750,7 @@ var app = (function () {
     		block,
     		id: create_default_slot_2.name,
     		type: "slot",
-    		source: "(32:2) <Parallax sections={3.0} config={{stiffness: 0.3}}>",
+    		source: "(32:2) <Parallax sections={2.7} config={{stiffness: 0.3}}>",
     		ctx
     	});
 
@@ -4780,7 +4769,7 @@ var app = (function () {
 
     	parallax = new Parallax({
     			props: {
-    				sections: 3.0,
+    				sections: 2.7,
     				config: { stiffness: 0.3 },
     				$$slots: { default: [create_default_slot_2] },
     				$$scope: { ctx }
