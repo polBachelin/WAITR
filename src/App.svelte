@@ -5,11 +5,11 @@
 	import Solution from "./Solution.svelte"
 	import Feedback from "./Feedback.svelte"
 	import Footer from "./Footer.svelte"
+	import UseCases from './UseCases.svelte'
 	import MainFrame from "./MainFrame.svelte"
     import Not404 from "./404not404.svelte";
     import { Router, Route } from "svelte-routing";
 	import { Parallax, ParallaxLayer } from 'svelte-parallax'
-
 	let resume = 3.11;
 
     export const url = "";
@@ -36,10 +36,13 @@
 			<ParallaxLayer rate={0} offset={1}>
 				<img class="banner" src="img/BannerWAITR.png" alt="banner">
 			</ParallaxLayer>
-			<ParallaxLayer rate={0.5} offset={1.2}>
+			<ParallaxLayer rate={0.5} offset={1.0}>
 				<Resume />
 			</ParallaxLayer>
-			<ParallaxLayer rate={2.0} offset={1.2} style={"background-color: white; display: flex !important; justify-content: center !important;"}>
+			<ParallaxLayer rate={0.5} offset={1.4}>
+				<UseCases />
+			</ParallaxLayer>
+			<ParallaxLayer rate={2.0} offset={1.5} style={"background-color: white; display: flex !important; justify-content: center !important;"}>
 				<WhoAreUS />
 			</ParallaxLayer>
 			<ParallaxLayer rate={0} offset={1.9}>

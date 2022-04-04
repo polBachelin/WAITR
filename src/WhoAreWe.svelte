@@ -3,25 +3,23 @@
 
 <div class="container flex">
     <div>
-        <h1>Who are we ?</h1>
+        <h1>Our mission</h1>
         <p>
-            WAITRWAITRWAITRWAITRWAITRWAITRWAITRWAITR
-            WAITRWAITRWAITRWAITRWAITRWAITRWAITRWAITR
-            WAITRWAITRWAITRWAITRWAITRWAITRWAITRWAITR
-            WAITRWAITRWAITRWAITRWAITRWAITRWAITRWAITR
-        </p>
-        <p>
-            WAITRWAITRWAITRWAITRWAITRWAITRWAITRWAITR            
+            To live in a world where you do not have to make the decision between your
+            life choices and your time: We strive to create access and revolutionize an industry like our tech
+            forefathers and allow a new platform for one of our more tedious and least solved problem in the
+            world.
         </p>
     </div>
     <div>
-        <h1>Why should you trust us ?</h1>
-        <p>
-            WAITRWAITRWAITRWAITRWAITRWAITRWAITRWAITRWAITR
-        </p>
-        <p>
-            WAITRWAITRWAITRWAITRWAITRWAITRWAITRWAITRWAITRWAITR
-        </p>
+        <h1>Our objectives</h1>
+        <ul>
+            <li>Make a web and mobile platform where users can delegate busy tasks to</li>
+            <li>Save time: take back your life</li>
+            <li>Make money: delegating the task of waiting to someone else</li>
+            <li>Make a connection: Make a friend who will help you with your platform</li>
+            <li>Create a platform: Make a new industry where people can industrialize or just use it for side income</li>
+        </ul>
     </div>
 </div>
 
@@ -43,7 +41,7 @@
         font-weight: normal;
         font-size: var(--fs-xl);
     }
-    p {
+    p, li {
         font-family: var(--ff-p);
         color: #858585;
         font-size: var(--fs-s);

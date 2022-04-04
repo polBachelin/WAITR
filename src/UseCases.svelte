@@ -2,24 +2,18 @@
 </script>
 
 <div class="col">
-    <h1 class="title">THE BENEFITS</h1>
+    <h1 class="title">USE CASES</h1>
 </div>
 <div class="container">
-    <div class="col">
-        <img class="icon" src="icon/wait.png" alt="icon team">
-        <div class="mt-3 title">Stop</div>
-        <div class="title">waiting</div>
-    </div>
-    <div>
-        <img class="icon" src="icon/salary.png" alt="icon map">
-        <div class="mt-3 title">Start</div>
-        <div class="title">earning</div>
-    </div>
-    <div>
-        <img class="icon" src="icon/snap.png" alt="icon target">
-        <div class="mt-3 title">Easy to </div>
-        <div class="title">use</div>
-    </div>
+	<ul>
+		<div class="col">
+			<p>Key features :</p>
+		</div>
+		<li>Understandable economics</li>
+		<li>Dynamic schedule</li>
+		<li>Expansion</li>
+		<li>Rapid communicatoin & security</li>
+	</ul>
 </div>
 
 <style>
