@@ -15,10 +15,10 @@
         <h1>OUR OBJECTIVES</h1>
         <ul>
             <li>Make a web and mobile platform where users can delegate busy tasks to</li>
-            <li>Save time: take back your life</li>
-            <li>Make money: delegating the task of waiting to someone else</li>
-            <li>Make a connection: Make a friend who will help you with your platform</li>
-            <li>Create a platform: Make a new industry where people can industrialize or just use it for side income</li>
+            <li>Help you save time and take back control of your life</li>
+            <li>Help people make money easily</li>
+            <li>Help connect people</li>
+            <li>Create a live platform where people can make a side income</li>
         </ul>
     </div>
 </div>
