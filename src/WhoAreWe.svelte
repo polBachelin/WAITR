@@ -3,7 +3,7 @@
 
 <div class="container flex">
     <div>
-        <h1>Our mission</h1>
+        <h1>OUR MISSION</h1>
         <p>
             To live in a world where you do not have to make the decision between your
             life choices and your time: We strive to create access and revolutionize an industry like our tech
@@ -12,7 +12,7 @@
         </p>
     </div>
     <div>
-        <h1>Our objectives</h1>
+        <h1>OUR OBJECTIVES</h1>
         <ul>
             <li>Make a web and mobile platform where users can delegate busy tasks to</li>
             <li>Save time: take back your life</li>

@@ -737,6 +737,9 @@ var app = (function () {
     	let t8;
     	let li3;
     	let a4;
+    	let t10;
+    	let li4;
+    	let a5;
     	let mounted;
     	let dispose;
 
@@ -757,15 +760,19 @@ var app = (function () {
     			t4 = space();
     			li1 = element("li");
     			a2 = element("a");
-    			a2.textContent = "Who are we ?";
+    			a2.textContent = "The benefits";
     			t6 = space();
     			li2 = element("li");
     			a3 = element("a");
-    			a3.textContent = "What others have said";
+    			a3.textContent = "Who are we ?";
     			t8 = space();
     			li3 = element("li");
     			a4 = element("a");
-    			a4.textContent = "Contact Us";
+    			a4.textContent = "What others have said";
+    			t10 = space();
+    			li4 = element("li");
+    			a5 = element("a");
+    			a5.textContent = "Contact Us";
     			attr_dev(img0, "class", "logo svelte-1ce50lx");
     			if (!src_url_equal(img0.src, img0_src_value = "img/WAITR_logo_noText.png")) attr_dev(img0, "src", img0_src_value);
     			attr_dev(img0, "alt", "logo");
@@ -783,21 +790,26 @@ var app = (function () {
     			add_location(a1, file$f, 20, 12, 535);
     			attr_dev(li0, "class", "svelte-1ce50lx");
     			add_location(li0, file$f, 20, 8, 531);
-    			attr_dev(a2, "href", "#whoAreUs");
+    			attr_dev(a2, "href", "#benefits");
     			attr_dev(a2, "class", "svelte-1ce50lx");
     			add_location(a2, file$f, 21, 12, 589);
     			attr_dev(li1, "class", "svelte-1ce50lx");
     			add_location(li1, file$f, 21, 8, 585);
-    			attr_dev(a3, "href", "#feedback");
+    			attr_dev(a3, "href", "#whoAreUs");
     			attr_dev(a3, "class", "svelte-1ce50lx");
-    			add_location(a3, file$f, 22, 12, 643);
+    			add_location(a3, file$f, 22, 12, 651);
     			attr_dev(li2, "class", "svelte-1ce50lx");
-    			add_location(li2, file$f, 22, 8, 639);
-    			attr_dev(a4, "href", "#contact");
+    			add_location(li2, file$f, 22, 8, 647);
+    			attr_dev(a4, "href", "#feedback");
     			attr_dev(a4, "class", "svelte-1ce50lx");
-    			add_location(a4, file$f, 23, 12, 706);
+    			add_location(a4, file$f, 23, 12, 705);
     			attr_dev(li3, "class", "svelte-1ce50lx");
-    			add_location(li3, file$f, 23, 8, 702);
+    			add_location(li3, file$f, 23, 8, 701);
+    			attr_dev(a5, "href", "#contact");
+    			attr_dev(a5, "class", "svelte-1ce50lx");
+    			add_location(a5, file$f, 24, 12, 768);
+    			attr_dev(li4, "class", "svelte-1ce50lx");
+    			add_location(li4, file$f, 24, 8, 764);
     			attr_dev(ul, "data-visible", /*bool*/ ctx[0]);
     			attr_dev(ul, "class", "nav-right flex ligne svelte-1ce50lx");
     			add_location(ul, file$f, 19, 4, 469);
@@ -828,6 +840,9 @@ var app = (function () {
     			append_dev(ul, t8);
     			append_dev(ul, li3);
     			append_dev(li3, a4);
+    			append_dev(ul, t10);
+    			append_dev(ul, li4);
+    			append_dev(li4, a5);
 
     			if (!mounted) {
     				dispose = listen_dev(button, "click", /*toggle_menu*/ ctx[1], false, false, false);
@@ -935,14 +950,14 @@ var app = (function () {
     			div2 = element("div");
     			div0 = element("div");
     			h10 = element("h1");
-    			h10.textContent = "Our mission";
+    			h10.textContent = "OUR MISSION";
     			t1 = space();
     			p = element("p");
     			p.textContent = "To live in a world where you do not have to make the decision between your\n            life choices and your time: We strive to create access and revolutionize an industry like our tech\n            forefathers and allow a new platform for one of our more tedious and least solved problem in the\n            world.";
     			t3 = space();
     			div1 = element("div");
     			h11 = element("h1");
-    			h11.textContent = "Our objectives";
+    			h11.textContent = "OUR OBJECTIVES";
     			t5 = space();
     			ul = element("ul");
     			li0 = element("li");
@@ -1956,87 +1971,71 @@ var app = (function () {
     const file$8 = "src/UseCases.svelte";
 
     function create_fragment$c(ctx) {
-    	let div0;
+    	let div;
     	let h1;
     	let t1;
-    	let div2;
     	let ul;
-    	let div1;
-    	let p;
-    	let t3;
     	let li0;
-    	let t5;
+    	let t3;
     	let li1;
-    	let t7;
+    	let t5;
     	let li2;
-    	let t9;
+    	let t7;
     	let li3;
 
     	const block = {
     		c: function create() {
-    			div0 = element("div");
+    			div = element("div");
     			h1 = element("h1");
     			h1.textContent = "USE CASES";
     			t1 = space();
-    			div2 = element("div");
     			ul = element("ul");
-    			div1 = element("div");
-    			p = element("p");
-    			p.textContent = "Key features :";
-    			t3 = space();
     			li0 = element("li");
-    			li0.textContent = "Understandable economics";
-    			t5 = space();
+    			li0.textContent = "Rapid communicatoin & security";
+    			t3 = space();
     			li1 = element("li");
-    			li1.textContent = "Dynamic schedule";
-    			t7 = space();
+    			li1.textContent = "Understandable economics";
+    			t5 = space();
     			li2 = element("li");
-    			li2.textContent = "Expansion";
-    			t9 = space();
+    			li2.textContent = "Dynamic schedule";
+    			t7 = space();
     			li3 = element("li");
-    			li3.textContent = "Rapid communicatoin & security";
-    			attr_dev(h1, "class", "title svelte-1g86ltu");
-    			add_location(h1, file$8, 4, 4, 42);
-    			attr_dev(div0, "class", "col svelte-1g86ltu");
-    			add_location(div0, file$8, 3, 0, 20);
-    			add_location(p, file$8, 9, 3, 135);
-    			attr_dev(div1, "class", "col svelte-1g86ltu");
-    			add_location(div1, file$8, 8, 2, 114);
-    			add_location(li0, file$8, 11, 2, 168);
-    			add_location(li1, file$8, 12, 2, 204);
-    			add_location(li2, file$8, 13, 2, 232);
-    			add_location(li3, file$8, 14, 2, 253);
-    			add_location(ul, file$8, 7, 1, 107);
-    			attr_dev(div2, "class", "container svelte-1g86ltu");
-    			add_location(div2, file$8, 6, 0, 82);
+    			li3.textContent = "Expansion";
+    			attr_dev(h1, "class", "title svelte-1ujr7e8");
+    			add_location(h1, file$8, 4, 4, 53);
+    			attr_dev(li0, "class", "svelte-1ujr7e8");
+    			add_location(li0, file$8, 6, 2, 94);
+    			attr_dev(li1, "class", "svelte-1ujr7e8");
+    			add_location(li1, file$8, 7, 8, 142);
+    			attr_dev(li2, "class", "svelte-1ujr7e8");
+    			add_location(li2, file$8, 8, 2, 178);
+    			attr_dev(li3, "class", "svelte-1ujr7e8");
+    			add_location(li3, file$8, 9, 2, 206);
+    			add_location(ul, file$8, 5, 1, 87);
+    			attr_dev(div, "class", "container flex svelte-1ujr7e8");
+    			add_location(div, file$8, 3, 0, 20);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
     		},
     		m: function mount(target, anchor) {
-    			insert_dev(target, div0, anchor);
-    			append_dev(div0, h1);
-    			insert_dev(target, t1, anchor);
-    			insert_dev(target, div2, anchor);
-    			append_dev(div2, ul);
-    			append_dev(ul, div1);
-    			append_dev(div1, p);
-    			append_dev(ul, t3);
+    			insert_dev(target, div, anchor);
+    			append_dev(div, h1);
+    			append_dev(div, t1);
+    			append_dev(div, ul);
     			append_dev(ul, li0);
-    			append_dev(ul, t5);
+    			append_dev(ul, t3);
     			append_dev(ul, li1);
-    			append_dev(ul, t7);
+    			append_dev(ul, t5);
     			append_dev(ul, li2);
-    			append_dev(ul, t9);
+    			append_dev(ul, t7);
     			append_dev(ul, li3);
     		},
     		p: noop,
     		i: noop,
     		o: noop,
     		d: function destroy(detaching) {
-    			if (detaching) detach_dev(div0);
-    			if (detaching) detach_dev(t1);
-    			if (detaching) detach_dev(div2);
+    			if (detaching) detach_dev(div);
     		}
     	};
 
@@ -4507,7 +4506,7 @@ var app = (function () {
     /* src/App.svelte generated by Svelte v3.46.2 */
     const file$5 = "src/App.svelte";
 
-    // (33:3) <ParallaxLayer rate={0} offset={0} style={"background-color: white; display: flex !important; justify-content: center !important;"}>
+    // (34:3) <ParallaxLayer rate={0} offset={0} style={"background-color: white; display: flex !important; justify-content: center !important;"}>
     function create_default_slot_9(ctx) {
     	let solution;
     	let current;
@@ -4539,14 +4538,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_9.name,
     		type: "slot",
-    		source: "(33:3) <ParallaxLayer rate={0} offset={0} style={\\\"background-color: white; display: flex !important; justify-content: center !important;\\\"}>",
+    		source: "(34:3) <ParallaxLayer rate={0} offset={0} style={\\\"background-color: white; display: flex !important; justify-content: center !important;\\\"}>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (36:3) <ParallaxLayer rate={0} offset={1}>
+    // (37:3) <ParallaxLayer rate={0} offset={1}>
     function create_default_slot_8(ctx) {
     	let img;
     	let img_src_value;
@@ -4557,7 +4556,7 @@ var app = (function () {
     			attr_dev(img, "class", "banner svelte-1n8vvxr");
     			if (!src_url_equal(img.src, img_src_value = "img/BannerWAITR.png")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "banner");
-    			add_location(img, file$5, 36, 4, 1370);
+    			add_location(img, file$5, 37, 4, 1429);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -4571,14 +4570,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_8.name,
     		type: "slot",
-    		source: "(36:3) <ParallaxLayer rate={0} offset={1}>",
+    		source: "(37:3) <ParallaxLayer rate={0} offset={1}>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (39:3) <ParallaxLayer rate={0} offset={1.1}>
+    // (40:3) <ParallaxLayer rate={0} offset={1.1}>
     function create_default_slot_7(ctx) {
     	let resume_1;
     	let current;
@@ -4610,14 +4609,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_7.name,
     		type: "slot",
-    		source: "(39:3) <ParallaxLayer rate={0} offset={1.1}>",
+    		source: "(40:3) <ParallaxLayer rate={0} offset={1.1}>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (42:3) <ParallaxLayer rate={0} offset={1.5}>
+    // (43:3) <ParallaxLayer rate={0} offset={1.5}>
     function create_default_slot_6(ctx) {
     	let usecases;
     	let current;
@@ -4649,14 +4648,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_6.name,
     		type: "slot",
-    		source: "(42:3) <ParallaxLayer rate={0} offset={1.5}>",
+    		source: "(43:3) <ParallaxLayer rate={0} offset={1.5}>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (45:3) <ParallaxLayer rate={0} offset={1.9} style={"background-color: white; display: flex !important; justify-content: center !important;"}>
+    // (46:3) <ParallaxLayer rate={0} offset={1.9} style={"background-color: white; display: flex !important; justify-content: center !important;"}>
     function create_default_slot_5(ctx) {
     	let whoareus;
     	let current;
@@ -4688,14 +4687,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_5.name,
     		type: "slot",
-    		source: "(45:3) <ParallaxLayer rate={0} offset={1.9} style={\\\"background-color: white; display: flex !important; justify-content: center !important;\\\"}>",
+    		source: "(46:3) <ParallaxLayer rate={0} offset={1.9} style={\\\"background-color: white; display: flex !important; justify-content: center !important;\\\"}>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (48:3) <ParallaxLayer rate={0} offset={2.9}>
+    // (49:3) <ParallaxLayer rate={0} offset={2.9}>
     function create_default_slot_4(ctx) {
     	let img;
     	let img_src_value;
@@ -4706,7 +4705,7 @@ var app = (function () {
     			attr_dev(img, "class", "banner svelte-1n8vvxr");
     			if (!src_url_equal(img.src, img_src_value = "img/BannerWAITR.png")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "banner");
-    			add_location(img, file$5, 48, 4, 1824);
+    			add_location(img, file$5, 49, 4, 1883);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -4720,14 +4719,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_4.name,
     		type: "slot",
-    		source: "(48:3) <ParallaxLayer rate={0} offset={2.9}>",
+    		source: "(49:3) <ParallaxLayer rate={0} offset={2.9}>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (51:3) <ParallaxLayer rate={0} offset={3.6}>
+    // (52:3) <ParallaxLayer rate={0} offset={3.6}>
     function create_default_slot_3(ctx) {
     	let feedback;
     	let current;
@@ -4759,14 +4758,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_3.name,
     		type: "slot",
-    		source: "(51:3) <ParallaxLayer rate={0} offset={3.6}>",
+    		source: "(52:3) <ParallaxLayer rate={0} offset={3.6}>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (32:2) <Parallax sections={4} config={{stiffness: 0.3}}>
+    // (33:2) <Parallax sections={4} config={{stiffness: 0.3}}>
     function create_default_slot_2(ctx) {
     	let parallaxlayer0;
     	let t0;
@@ -4980,14 +4979,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_2.name,
     		type: "slot",
-    		source: "(32:2) <Parallax sections={4} config={{stiffness: 0.3}}>",
+    		source: "(33:2) <Parallax sections={4} config={{stiffness: 0.3}}>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (30:4) <Route path="*">
+    // (31:4) <Route path="*">
     function create_default_slot_1(ctx) {
     	let navbar;
     	let t0;
@@ -5060,14 +5059,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_1.name,
     		type: "slot",
-    		source: "(30:4) <Route path=\\\"*\\\">",
+    		source: "(31:4) <Route path=\\\"*\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (29:0) <Router {url}>
+    // (30:0) <Router {url}>
     function create_default_slot(ctx) {
     	let route;
     	let current;
@@ -5116,7 +5115,7 @@ var app = (function () {
     		block,
     		id: create_default_slot.name,
     		type: "slot",
-    		source: "(29:0) <Router {url}>",
+    		source: "(30:0) <Router {url}>",
     		ctx
     	});
 
@@ -5134,6 +5133,8 @@ var app = (function () {
     	let t4;
     	let div3;
     	let t5;
+    	let div4;
+    	let t6;
     	let router;
     	let current;
 
@@ -5159,24 +5160,30 @@ var app = (function () {
     			t4 = space();
     			div3 = element("div");
     			t5 = space();
+    			div4 = element("div");
+    			t6 = space();
     			create_component(router.$$.fragment);
     			add_location(style, file$5, 18, 4, 569);
     			attr_dev(div0, "id", "solution");
     			set_style(div0, "position", "relative");
-    			set_style(div0, "top", "100px");
+    			set_style(div0, "top", "0px");
     			add_location(div0, file$5, 24, 0, 797);
-    			attr_dev(div1, "id", "whoAreUs");
+    			attr_dev(div1, "id", "benefits");
     			set_style(div1, "position", "relative");
-    			set_style(div1, "top", "1000px");
-    			add_location(div1, file$5, 25, 0, 858);
-    			attr_dev(div2, "id", "feedback");
+    			set_style(div1, "top", "900px");
+    			add_location(div1, file$5, 25, 0, 856);
+    			attr_dev(div2, "id", "whoAreUs");
     			set_style(div2, "position", "relative");
-    			set_style(div2, "top", "1550px");
-    			add_location(div2, file$5, 26, 0, 920);
-    			attr_dev(div3, "id", "contact");
+    			set_style(div2, "top", "1750px");
+    			add_location(div2, file$5, 26, 0, 917);
+    			attr_dev(div3, "id", "feedback");
     			set_style(div3, "position", "relative");
     			set_style(div3, "top", "2500px");
-    			add_location(div3, file$5, 27, 0, 982);
+    			add_location(div3, file$5, 27, 0, 979);
+    			attr_dev(div4, "id", "contact");
+    			set_style(div4, "position", "relative");
+    			set_style(div4, "top", "3000px");
+    			add_location(div4, file$5, 28, 0, 1041);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -5192,6 +5199,8 @@ var app = (function () {
     			insert_dev(target, t4, anchor);
     			insert_dev(target, div3, anchor);
     			insert_dev(target, t5, anchor);
+    			insert_dev(target, div4, anchor);
+    			insert_dev(target, t6, anchor);
     			mount_component(router, target, anchor);
     			current = true;
     		},
@@ -5224,6 +5233,8 @@ var app = (function () {
     			if (detaching) detach_dev(t4);
     			if (detaching) detach_dev(div3);
     			if (detaching) detach_dev(t5);
+    			if (detaching) detach_dev(div4);
+    			if (detaching) detach_dev(t6);
     			destroy_component(router, detaching);
     		}
     	};
