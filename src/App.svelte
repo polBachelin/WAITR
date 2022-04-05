@@ -36,7 +36,7 @@
 			<ParallaxLayer rate={0} offset={1}>
 				<img class="banner" src="img/BannerWAITR.png" alt="banner">
 			</ParallaxLayer>
-			<ParallaxLayer rate={0} offset={1}>
+			<ParallaxLayer rate={0} offset={1.1}>
 				<Resume />
 			</ParallaxLayer>
 			<ParallaxLayer rate={0} offset={1.5}>
