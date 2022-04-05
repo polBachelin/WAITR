@@ -7,6 +7,7 @@
 	import Footer from "./Footer.svelte"
 	import UseCases from './UseCases.svelte'
 	import MainFrame from "./MainFrame.svelte"
+	import Newsletter from './newsletterForm.svelte'
     import Not404 from "./404not404.svelte";
     import { Router, Route } from "svelte-routing";
 	import { Parallax, ParallaxLayer } from 'svelte-parallax'
@@ -20,7 +21,11 @@
         @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
         @import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap");
     </style>
+	<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/be9a22b4c27af49601b51c521/1e9c712ef0db241c5a12d27f9.js");</script>
 </svelte:head>
+
+
+
 
 <div id="solution" style="position: relative; top: 0px;"/>
 <div id="benefits" style="position: relative; top: 900px;"/>
@@ -51,6 +56,8 @@
 			</ParallaxLayer>
 			<ParallaxLayer rate={0} offset={3.6}>
 				<Feedback />
+				<br>
+				<Newsletter/>
 			</ParallaxLayer>
 		</Parallax>
 		<Footer />
