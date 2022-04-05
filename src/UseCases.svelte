@@ -12,20 +12,10 @@
 </div>
 
 <style>
-    .container {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        margin-inline: auto;
-    }
     .flex {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-    }
-    .container {
-        max-width: 40rem;
-        margin-inline: auto;
-        padding-inline: 3rem;
     }
     .title {
 		color: var(--c-blue);

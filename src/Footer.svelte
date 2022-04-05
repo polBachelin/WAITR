@@ -74,23 +74,6 @@
         font-family: var(--ff-t);
         font-size: var(--fs-l);
     }
-    .lien {
-        text-align: center;
-        color: var(--c-blue);
-        padding-bottom: 7%;
-    }
-    .lien a {
-        text-align: center;
-        color: var(--c-blue);
-        font-family: var(--ff-t);
-        font-size: var(--fs-s);
-    }
-    .lien a:hover {
-        text-decoration: underline;
-    }
-    .logo {
-        width: 15rem;
-    }
     .icon {
         width: 2rem;
     }
@@ -105,11 +88,6 @@
     @media (max-width: 25em) {
         footer {
             margin-top: -50%;
-        }
-        .logo {
-            width: 10rem;
-            object-fit: cover;
-            height: 7rem;
         }
         .center-items {
             flex-direction: column;
