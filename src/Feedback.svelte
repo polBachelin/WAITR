@@ -21,8 +21,8 @@
       this={Carousel}
     bind:this={carousel}
     >
-    <div>“Convenience is king, this will help me get into lines I wouldn't wait for otherwise ” - Daniel G</div>
-    <div>2</div>
+    <div>"Convenience is king, this will help me get into lines I wouldn't wait for otherwise " - Daniel G</div>
+    <div>"This idea will revolutionize the way we look at waiting lines " - Killian V</div>
     <div>3</div>
     </svelte:component>
     <!-- <div class="grid">
