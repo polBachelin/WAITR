@@ -1,7 +1,7 @@
 <script>
 </script>
 
-<div class="container flex">
+<div class="flex">
     <h1 class="title">USE CASES</h1>
 	<ul>
 		<li>Rapid communicatoin & security</li>
@@ -41,11 +41,10 @@
         font-family: var(--ff-p);
     }
     @media (max-width: 700px) {
-        .container {
-            margin-top: -30%;
+        .flex {
+            margin-top: 23%;
             grid-template-columns: none;
             grid-template-rows: repeat(3, 1fr);
-            gap: 2rem;
         }
     }
 </style>

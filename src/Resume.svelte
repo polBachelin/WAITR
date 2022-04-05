@@ -48,13 +48,13 @@
 	}
     @media (max-width: 700px) {
         .container {
-            margin-top: -30%;
+            margin-top: 10%;
             grid-template-columns: none;
             grid-template-rows: repeat(3, 1fr);
-            gap: 2rem;
+            gap: -1rem;
         }
         .icon {
-            width: 10%;
+            width: 8%;
         }
     }
 </style>
