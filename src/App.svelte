@@ -29,26 +29,26 @@
 <Router {url}>
     <Route path="*">
 		<NavBar route="/" />
-		<Parallax sections={2.7} config={{stiffness: 0.3}}>
+		<Parallax sections={4} config={{stiffness: 0.3}}>
 			<ParallaxLayer rate={0} offset={0} style={"background-color: white; display: flex !important; justify-content: center !important;"}>
 				<Solution />
 			</ParallaxLayer>
 			<ParallaxLayer rate={0} offset={1}>
 				<img class="banner" src="img/BannerWAITR.png" alt="banner">
 			</ParallaxLayer>
-			<ParallaxLayer rate={0.5} offset={1.0}>
+			<ParallaxLayer rate={0} offset={1}>
 				<Resume />
 			</ParallaxLayer>
-			<ParallaxLayer rate={0.5} offset={1.4}>
+			<ParallaxLayer rate={0} offset={1.5}>
 				<UseCases />
 			</ParallaxLayer>
-			<ParallaxLayer rate={2.0} offset={1.5} style={"background-color: white; display: flex !important; justify-content: center !important;"}>
+			<ParallaxLayer rate={0} offset={1.9} style={"background-color: white; display: flex !important; justify-content: center !important;"}>
 				<WhoAreUS />
 			</ParallaxLayer>
-			<ParallaxLayer rate={0} offset={1.9}>
+			<ParallaxLayer rate={0} offset={2.9}>
 				<img class="banner" src="img/BannerWAITR.png" alt="banner">
 			</ParallaxLayer>
-			<ParallaxLayer rate={1} offset={2}>
+			<ParallaxLayer rate={0} offset={3.6}>
 				<Feedback />
 			</ParallaxLayer>
 		</Parallax>

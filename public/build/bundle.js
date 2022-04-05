@@ -4557,7 +4557,7 @@ var app = (function () {
     			attr_dev(img, "class", "banner svelte-1n8vvxr");
     			if (!src_url_equal(img.src, img_src_value = "img/BannerWAITR.png")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "banner");
-    			add_location(img, file$5, 36, 4, 1372);
+    			add_location(img, file$5, 36, 4, 1370);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -4578,7 +4578,7 @@ var app = (function () {
     	return block;
     }
 
-    // (39:3) <ParallaxLayer rate={0.5} offset={1.0}>
+    // (39:3) <ParallaxLayer rate={0} offset={1}>
     function create_default_slot_7(ctx) {
     	let resume_1;
     	let current;
@@ -4610,14 +4610,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_7.name,
     		type: "slot",
-    		source: "(39:3) <ParallaxLayer rate={0.5} offset={1.0}>",
+    		source: "(39:3) <ParallaxLayer rate={0} offset={1}>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (42:3) <ParallaxLayer rate={0.5} offset={1.4}>
+    // (42:3) <ParallaxLayer rate={0} offset={1.5}>
     function create_default_slot_6(ctx) {
     	let usecases;
     	let current;
@@ -4649,14 +4649,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_6.name,
     		type: "slot",
-    		source: "(42:3) <ParallaxLayer rate={0.5} offset={1.4}>",
+    		source: "(42:3) <ParallaxLayer rate={0} offset={1.5}>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (45:3) <ParallaxLayer rate={2.0} offset={1.5} style={"background-color: white; display: flex !important; justify-content: center !important;"}>
+    // (45:3) <ParallaxLayer rate={0} offset={1.9} style={"background-color: white; display: flex !important; justify-content: center !important;"}>
     function create_default_slot_5(ctx) {
     	let whoareus;
     	let current;
@@ -4688,14 +4688,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_5.name,
     		type: "slot",
-    		source: "(45:3) <ParallaxLayer rate={2.0} offset={1.5} style={\\\"background-color: white; display: flex !important; justify-content: center !important;\\\"}>",
+    		source: "(45:3) <ParallaxLayer rate={0} offset={1.9} style={\\\"background-color: white; display: flex !important; justify-content: center !important;\\\"}>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (48:3) <ParallaxLayer rate={0} offset={1.9}>
+    // (48:3) <ParallaxLayer rate={0} offset={2.9}>
     function create_default_slot_4(ctx) {
     	let img;
     	let img_src_value;
@@ -4706,7 +4706,7 @@ var app = (function () {
     			attr_dev(img, "class", "banner svelte-1n8vvxr");
     			if (!src_url_equal(img.src, img_src_value = "img/BannerWAITR.png")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "banner");
-    			add_location(img, file$5, 48, 4, 1832);
+    			add_location(img, file$5, 48, 4, 1822);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -4720,14 +4720,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_4.name,
     		type: "slot",
-    		source: "(48:3) <ParallaxLayer rate={0} offset={1.9}>",
+    		source: "(48:3) <ParallaxLayer rate={0} offset={2.9}>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (51:3) <ParallaxLayer rate={1} offset={2}>
+    // (51:3) <ParallaxLayer rate={0} offset={3.6}>
     function create_default_slot_3(ctx) {
     	let feedback;
     	let current;
@@ -4759,14 +4759,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_3.name,
     		type: "slot",
-    		source: "(51:3) <ParallaxLayer rate={1} offset={2}>",
+    		source: "(51:3) <ParallaxLayer rate={0} offset={3.6}>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (32:2) <Parallax sections={2.7} config={{stiffness: 0.3}}>
+    // (32:2) <Parallax sections={4} config={{stiffness: 0.3}}>
     function create_default_slot_2(ctx) {
     	let parallaxlayer0;
     	let t0;
@@ -4806,8 +4806,8 @@ var app = (function () {
 
     	parallaxlayer2 = new ParallaxLayer({
     			props: {
-    				rate: 0.5,
-    				offset: 1.0,
+    				rate: 0,
+    				offset: 1,
     				$$slots: { default: [create_default_slot_7] },
     				$$scope: { ctx }
     			},
@@ -4816,8 +4816,8 @@ var app = (function () {
 
     	parallaxlayer3 = new ParallaxLayer({
     			props: {
-    				rate: 0.5,
-    				offset: 1.4,
+    				rate: 0,
+    				offset: 1.5,
     				$$slots: { default: [create_default_slot_6] },
     				$$scope: { ctx }
     			},
@@ -4826,8 +4826,8 @@ var app = (function () {
 
     	parallaxlayer4 = new ParallaxLayer({
     			props: {
-    				rate: 2.0,
-    				offset: 1.5,
+    				rate: 0,
+    				offset: 1.9,
     				style: "background-color: white; display: flex !important; justify-content: center !important;",
     				$$slots: { default: [create_default_slot_5] },
     				$$scope: { ctx }
@@ -4838,7 +4838,7 @@ var app = (function () {
     	parallaxlayer5 = new ParallaxLayer({
     			props: {
     				rate: 0,
-    				offset: 1.9,
+    				offset: 2.9,
     				$$slots: { default: [create_default_slot_4] },
     				$$scope: { ctx }
     			},
@@ -4847,8 +4847,8 @@ var app = (function () {
 
     	parallaxlayer6 = new ParallaxLayer({
     			props: {
-    				rate: 1,
-    				offset: 2,
+    				rate: 0,
+    				offset: 3.6,
     				$$slots: { default: [create_default_slot_3] },
     				$$scope: { ctx }
     			},
@@ -4980,7 +4980,7 @@ var app = (function () {
     		block,
     		id: create_default_slot_2.name,
     		type: "slot",
-    		source: "(32:2) <Parallax sections={2.7} config={{stiffness: 0.3}}>",
+    		source: "(32:2) <Parallax sections={4} config={{stiffness: 0.3}}>",
     		ctx
     	});
 
@@ -4999,7 +4999,7 @@ var app = (function () {
 
     	parallax = new Parallax({
     			props: {
-    				sections: 2.7,
+    				sections: 4,
     				config: { stiffness: 0.3 },
     				$$slots: { default: [create_default_slot_2] },
     				$$scope: { ctx }
