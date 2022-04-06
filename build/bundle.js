@@ -1614,7 +1614,7 @@ var app = (function () {
     			div1.textContent = "\"This idea will revolutionize the way we look at waiting lines \" - Killian V";
     			t3 = space();
     			div2 = element("div");
-    			div2.textContent = "3";
+    			div2.textContent = "\"Waiting won't be a burden anymore \" - Omar M";
     			add_location(div0, file$b, 23, 4, 571);
     			add_location(div1, file$b, 24, 4, 684);
     			add_location(div2, file$b, 25, 4, 776);
