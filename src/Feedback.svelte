@@ -23,7 +23,7 @@
     >
     <div>"Convenience is king, this will help me get into lines I wouldn't wait for otherwise " - Daniel G</div>
     <div>"This idea will revolutionize the way we look at waiting lines " - Killian V</div>
-    <div>3</div>
+    <div>"Waiting won't be a burden anymore " - Omar M</div>
     </svelte:component>
     <!-- <div class="grid">
         <Profile
