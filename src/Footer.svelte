@@ -7,13 +7,10 @@
             <h1>Contact us !</h1>
         </div>
         <div class="reseaux">
-            <a href="https://www.instagram.com/nuagemalin/">
-                <img class="icon" src="icon/instagram.png" alt="contact_instagram_NuageMalin">
-            </a>
-            <a href="https://www.linkedin.com/company/nuage-malin">
+            <a href="https://www.linkedin.com/in/waitr-llc-4a50a8237/">
                 <img class="icon" src="icon/linkedinBlue.png" alt="contact_linkedin_NuageMalin">
             </a>
-            <a href="https://twitter.com/NuageMalin_fr">
+            <a href="https://twitter.com/WAITR_LLC/">
                 <img class="icon" src="icon/twitter.png" alt="contact_twitter_NuageMalin">
             </a>
         </div>
