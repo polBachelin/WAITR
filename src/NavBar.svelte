@@ -14,7 +14,7 @@
 <header class="nav flex shadow">
     <a class="title" href="/">
         <img class="logo" src="img/WAITR_logo_noText.png" alt="logo" />
-        WAITR
+        Holds4u
     </a>
     <button class="icon-toggle" on:click={toggle_menu}><img src="svg/iconMenu.svg" alt="icon_menu"></button>
     <ul data-visible={bool} class="nav-right flex ligne">
